@@ -1,0 +1,11 @@
+.webinner-card {
+  display: flex;
+  border: 2px solid orange;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.webinner-card img {
+  width: 400px;
+  margin-right: 20px;
+}

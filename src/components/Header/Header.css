@@ -1,0 +1,14 @@
+.logo {
+  font-weight: bold;
+}
+.main-color {
+  color: orange;
+}
+.nav-links {
+  text-decoration: none;
+  color: black;
+  transition: 0.4s;
+}
+.nav-links:hover {
+  color: orange;
+}

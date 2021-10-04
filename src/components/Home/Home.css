@@ -1,0 +1,26 @@
+.catagory {
+  margin: 20px 0;
+}
+.see-more {
+  margin-top: 10px;
+  text-align: center;
+}
+.hero-area {
+  text-align: center;
+}
+.banner {
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.banner h2 {
+  font-size: 2.8em;
+}
+.banner-txt {
+  color: orange;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.banner-btn {
+  margin-bottom: 60px;
+}
