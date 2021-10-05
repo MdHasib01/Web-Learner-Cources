@@ -1,0 +1,8 @@
+.course-card {
+  box-shadow: 1px 1px 5px rgb(207, 206, 206);
+  min-height: 70vh;
+  transition: 0.5s;
+}
+.course-card:hover {
+  box-shadow: 3px 3px 10px rgb(163, 162, 162);
+}

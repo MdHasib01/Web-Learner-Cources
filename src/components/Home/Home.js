@@ -26,11 +26,11 @@ const Home = () => {
             </div>
             <div className="catagory">
                 <Container>
-                <Row xs={1} md={3} className="g-4">
+                <Row xs={1} md={4} className="g-4">
                 {
                     catagories.map(catagory=><Catagory catagory={catagory}></Catagory>)
                 }
-          </Row>
+                </Row>
             <p className="see-more"><Button onClick={handleMore} variant="warning">Show more</Button></p>
             </Container>
             </div>

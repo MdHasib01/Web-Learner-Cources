@@ -2,14 +2,19 @@ import { faBookOpen, } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon, } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Container, Nav, Navbar, Button} from 'react-bootstrap';
+import { useHistory} from 'react-router';
 import { NavLink } from 'react-router-dom';
 import './Header.css'
 const Header = () => {
+    const history = useHistory();
+    const handleClick = ()=>{
+        history.push('/')
+    }
     return (
         <div>
             <Navbar bg="light" expand="lg">
                 <Container>
-                    <Navbar.Brand className="logo">
+                    <Navbar.Brand onClick={handleClick} className="logo">
                     <FontAwesomeIcon className="main-color" icon={faBookOpen} /> Web<span className="main-color">Learner</span></Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">

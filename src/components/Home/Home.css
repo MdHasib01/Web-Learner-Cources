@@ -24,3 +24,6 @@
 .banner-btn {
   margin-bottom: 60px;
 }
+.logo {
+  cursor: pointer;
+}
